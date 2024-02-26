@@ -386,6 +386,7 @@ float DirectionalShadowCalculator::GetVisibilityFromLightEsmPcf()
                 if (ratio > pcfFallbackThreshold)
                 {
                     ratio = SamplePcfBicubic(shadowCoord, indexOfCascade);
+                    //ratio = 0.67;
                 }
                 return saturate(ratio);
             }

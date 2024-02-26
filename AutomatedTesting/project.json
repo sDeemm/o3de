@@ -16,6 +16,7 @@
         "AWSMetrics",
         "Archive",
         "Atom",
+        "AtomImGuiTools",
         "AtomTressFX",
         "Atom_TestData",
         "AudioSystem",

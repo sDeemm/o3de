@@ -1,0 +1,15 @@
+[SourceExplorer.ignore]
+.git/
+*.suo
+*.csproj
+*.vcxproj
+*.azshadervariant
+
+[SearchableFiles.ignore]
+build/
+Cache/
+Cache/pc/
+AssetProcessorTemp/
+
+[SearchableFiles.include]
+*

@@ -45,9 +45,9 @@ namespace AZ
                 msaaOptionName = AZStd::string::format("MsaaMode::Msaa%ux", numSamples);
             }
 
-            UpdateShaderOptions(
-                { { AZ::Name("o_msaaMode"), msaaOptionName} }
-            );
+            // UpdateShaderOptions(
+            //     { { AZ::Name("o_msaaMode"), msaaOptionName} }
+            // );
         }
 
         void FullscreenShadowPass::CompileResources(const RHI::FrameGraphCompileContext& context)

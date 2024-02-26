@@ -88,9 +88,14 @@
                     "Id": 7378860763541895402,
                     "Controller": {
                         "Configuration": {
-                            "Intensity": 1.0,
+                            "Intensity": 1.7999999523162842,
                             "CameraEntityId": "",
-                            "ShadowFilterMethod": 1
+                            "SplitRatio": 0.8500000238418579,
+                            "IsCascadeCorrectionEnabled": true,
+                            "ShadowFilterMethod": 3,
+                            "Shadow Bias": 0.0020000000949949026,
+                            "Normal Shadow Bias": 2.0,
+                            "FullscreenBlurEnabled": false
                         }
                     }
                 },
@@ -105,9 +110,9 @@
                             13.487043380737305
                         ],
                         "Rotate": [
-                            -76.13099670410156,
-                            -0.847000002861023,
-                            -15.8100004196167
+                            -10.0,
+                            0.0,
+                            -21.0
                         ]
                     }
                 },
@@ -195,7 +200,7 @@
                                     "guid": "{0CD745C0-6AA8-569A-A68A-73A3270986C4}",
                                     "subId": 277889906
                                 },
-                                "assetHint": "objects/groudplane/groundplane_512x512m.azmodel"
+                                "assetHint": "objects/groudplane/groundplane_512x512m.fbx.azmodel"
                             }
                         }
                     }
@@ -231,8 +236,7 @@
                     "Id": 16880285896855930892,
                     "Controller": {
                         "Configuration": {
-                            "Field of View": 55.0,
-                            "EditorEntityId": 5755591939221957077
+                            "Field of View": 55.0
                         }
                     }
                 },

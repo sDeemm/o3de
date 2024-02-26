@@ -9,7 +9,7 @@
 #define THREADS 16
 
 // Todo: test Compute Shader version with async compute and LDS optimizations
-#define USING_COMPUTE_SHADER_DIRECTIONAL_LIGHT 0
+#define USING_COMPUTE_SHADER_DIRECTIONAL_LIGHT 1
 
 #include <Atom/Features/SrgSemantics.azsli>
 #include <viewsrg.srgi>
